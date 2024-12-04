@@ -1,17 +1,7 @@
 import React, { useState } from 'react';
 
 const About = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  // Function to toggle between light and dark mode
-  const toggleTheme = () => {
-    setDarkMode(!darkMode);
-    if (!darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
-  };
+  const [darkMode] = useState(false);
 
   return (
     <div className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-900'} min-h-screen py-10 px-5 sm:px-10 transition-all`}>

@@ -16,26 +16,64 @@ const Home = ({ isDarkMode }) => {
         {/* Overlay Effect */}
         <div
           className={`absolute inset-0 bg-gradient-to-b ${isDarkMode
-            ? "from-gray-900/70 to-gray-900/10"
-            : "from-gray-200/10 to-red/50"
+            ? "from-gray-900/90 to-gray-900/30"
+            : "from-gray-200/10 to-gray-900/40"
             }`}
         ></div>
 
-        {/* Animated Text */}
-        <div className="relative z-10">
+        {/* Animated Content */}
+        <div className="relative z-10 flex flex-col items-center">
+          {/* Python Logo Animation */}
+          <div className="mb-6">
+            <img
+              src="/assets/img/python.png"
+              alt="Python Logo"
+              className="w-24 md:w-36 animate-bounce"
+            />
+          </div>
+
+          {/* Main Heading */}
           <h2
-            className={`text-5xl md:text-6xl font-extrabold transition-all duration-1000 text-white`}
+            className={`text-5xl md:text-6xl font-extrabold transition-all duration-1000 text-yellow-400`}
           >
             Welcome to My Portfolio
           </h2>
+
+          {/* Subheading */}
           <p
-            className={`mt-4 text-lg md:text-xl transition-opacity duration-1000 text-white`}
+            className={`mt-4 text-lg md:text-xl transition-opacity duration-1000 text-gray-200`}
           >
-            Explore my work with dark and light theme support.
+            <span className="text-yellow-400 font-semibold">Explore</span> my work with
+            dark and light theme support.
           </p>
+
+          {/* Decorative Line */}
+          <div className="h-1 w-40 bg-yellow-400 mt-6 mb-6 rounded-full"></div>
+
+          {/* Call-to-Action Buttons */}
+          <div className="flex space-x-4 mt-4">
+            <button
+              className="px-6 py-2 bg-yellow-400 text-gray-900 font-semibold rounded shadow hover:bg-yellow-500 transition-all duration-300"
+            >
+              View Projects
+            </button>
+            <button
+              className="px-6 py-2 bg-transparent border border-yellow-400 text-yellow-400 font-semibold rounded shadow hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300"
+            >
+              Contact Me
+            </button>
+          </div>
         </div>
 
+        {/* Floating Animated Python Text */}
+        <div
+          className="absolute bottom-8 right-8 text-yellow-400 font-extrabold text-5xl md:text-6xl animate-pulse"
+          style={{ transform: "rotate(-15deg)" }}
+        >
+          PYTHON
+        </div>
       </div>
+
 
       {/* Profile Section */}
       <div className="profile-container mt-10 mx-auto max-w-6xl p-4 md:p-8 flex flex-col md:flex-row items-center gap-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
