@@ -127,6 +127,8 @@ const Home = ({ isDarkMode }) => {
         </div>
 
       </div>
+
+      
     </div>
   );
 };
