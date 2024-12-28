@@ -5,8 +5,9 @@ const Home = ({ isDarkMode }) => {
     <div>
       {/* Full-Height Background Section */}
       <div
-        className={`relative min-h-screen flex flex-col justify-center items-center text-center ${isDarkMode ? "text-white" : "text-gray-900"
-          }`}
+        className={`relative min-h-screen flex flex-col justify-center items-center text-center ${
+          isDarkMode ? "text-white" : "text-gray-900"
+        }`}
         style={{
           backgroundImage: "url('/assets/img/snake-crawls.avif')",
           backgroundSize: "cover",
@@ -15,10 +16,11 @@ const Home = ({ isDarkMode }) => {
       >
         {/* Overlay Effect */}
         <div
-          className={`absolute inset-0 bg-gradient-to-b ${isDarkMode
-            ? "from-gray-900/90 to-gray-900/30"
-            : "from-gray-200/10 to-gray-900/40"
-            }`}
+          className={`absolute inset-0 bg-gradient-to-b ${
+            isDarkMode
+              ? "from-gray-900/90 to-gray-900/30"
+              : "from-gray-200/10 to-gray-900/40"
+          }`}
         ></div>
 
         {/* Animated Content */}
@@ -43,8 +45,8 @@ const Home = ({ isDarkMode }) => {
           <p
             className={`mt-4 text-lg md:text-xl transition-opacity duration-1000 text-gray-200`}
           >
-            <span className="text-yellow-400 font-semibold">Explore</span> my work with
-            dark and light theme support.
+            <span className="text-yellow-400 font-semibold">Explore</span> my
+            work with dark and light theme support.
           </p>
 
           {/* Decorative Line */}
@@ -52,14 +54,10 @@ const Home = ({ isDarkMode }) => {
 
           {/* Call-to-Action Buttons */}
           <div className="flex space-x-4 mt-4">
-            <button
-              className="px-6 py-2 bg-yellow-400 text-gray-900 font-semibold rounded shadow hover:bg-yellow-500 transition-all duration-300"
-            >
+            <button className="px-6 py-2 bg-yellow-400 text-gray-900 font-semibold rounded shadow hover:bg-yellow-500 transition-all duration-300">
               View Projects
             </button>
-            <button
-              className="px-6 py-2 bg-transparent border border-yellow-400 text-yellow-400 font-semibold rounded shadow hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300"
-            >
+            <button className="px-6 py-2 bg-transparent border border-yellow-400 text-yellow-400 font-semibold rounded shadow hover:bg-yellow-400 hover:text-gray-900 transition-all duration-300">
               Contact Me
             </button>
           </div>
@@ -74,14 +72,13 @@ const Home = ({ isDarkMode }) => {
         </div>
       </div>
 
-
       {/* Profile Section */}
       <div className="profile-container mt-10 mx-auto max-w-6xl p-4 md:p-8 flex flex-col md:flex-row items-center gap-8 bg-white dark:bg-gray-800 rounded-lg shadow-lg">
         {/* Profile Image */}
         <div className="profile-image relative w-full md:w-1/3 flex justify-center">
           <div className="relative">
             <img
-              src="https://via.placeholder.com/300" // Replace with your image URL
+              src="/assets/img/portfolio.jpg" // Replace with your image URL
               alt="Profile"
               className="rounded-lg object-cover w-full h-auto max-w-xs md:max-w-none transform transition-transform duration-300 hover:scale-105"
             />
@@ -118,17 +115,14 @@ const Home = ({ isDarkMode }) => {
             </li>
           </ul>
           <a
-            href="/assets/mycv.pdf"
+            href="/assets/resume/Resume (1).pdf"
             download="Santosh_Kakde_CV.pdf"
             className="mt-6 inline-block px-6 py-2 bg-orange-500 text-white font-semibold rounded shadow hover:bg-orange-600 transition-colors duration-300"
           >
             Download Resume
           </a>
         </div>
-
       </div>
-
-      
     </div>
   );
 };

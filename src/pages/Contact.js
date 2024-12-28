@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
   return (
@@ -13,7 +13,8 @@ const Contact = () => {
         <div className="p-6 bg-white dark:bg-gray-700 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
           <h3 className="text-2xl font-semibold mb-2">Address</h3>
           <p>
-            Siddhart Chauk, N-5, House No 628, CIDCO, Chhatrapati Sambhaji Nagar, Maharashtra
+            Siddhart Chauk, N-5, House No 628, CIDCO, Chhatrapati Sambhaji
+            Nagar, Maharashtra
           </p>
         </div>
         <div className="p-6 bg-white dark:bg-gray-700 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
@@ -30,8 +31,8 @@ const Contact = () => {
       <div className="mb-12">
         <h3 className="text-3xl font-semibold text-center mb-4">Location</h3>
         <iframe
-          title="Chhatrapati Sambhaji Nagar Map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.695344460845!2d75.31078111489126!3d19.87498648664012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba3179c0c2a5f%3A0x8a223a53788b5e9f!2sChhatrapati%20Sambhaji%20Nagar%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1680927081457!5m2!1sen!2sin"
+          title="Pune Vadgaon Sheri Sainath Nagar Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.3635367348236!2d73.91712811489355!3d18.551173287393074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf7caa0b2c95%3A0x801abeb4c2568234!2sSainath%20Nagar%2C%20Vadgaon%20Sheri%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1680927081457!5m2!1sen!2sin"
           className="w-full h-96 rounded-lg shadow-lg"
           allowFullScreen
           loading="lazy"

@@ -2,18 +2,17 @@ import React from 'react';
 
 const liveProjects = [
   {
-    title: "Baimanus.in",
-    description:
-      "Originated by MGM University. Technologies used include Python, Django, Django REST Framework, HTML, CSS, JavaScript, REST API integrations, PostgreSQL, AWS, Celery, Redis, Gunicorn.",
-  },
+    title: <a class="active-link" rel="noopener noreferrer" href="https://baimanus.in/" target="_blank">https://baimanus.in/</a>,
+    description: "Originated by MGM University. Technologies used include Python, Django, Django REST Framework, HTML, CSS, JavaScript, REST API integrations, PostgreSQL, AWS, Celery, Redis, Gunicorn.",
+  }
+];
+
+const academicProjects = [
   {
     title: "Room Finders Web Application",
     description:
       "Technologies used: Python, Django, Django REST Framework, PostgreSQL, REST API, React.js, HTML, CSS, JavaScript.",
   },
-];
-
-const academicProjects = [
   {
     title: "Blog Application",
     description:
