@@ -46,7 +46,7 @@ const Home = ({ isDarkMode }) => {
             className={`mt-4 text-lg md:text-xl transition-opacity duration-1000 text-gray-200`}
           >
             <span className="text-yellow-400 font-semibold">Explore</span> my
-            work with dark and light theme support.
+            
           </p>
 
           {/* Decorative Line */}
