@@ -3,15 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.13.5",
-    "@emotion/styled": "^11.13.5",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@fortawesome/fontawesome-free": "^6.7.1",
-    "@mui/icons-material": "^6.1.9",
-    "@mui/material": "^6.1.9",
+    "@mui/icons-material": "^6.4.0",
+    "@mui/material": "^6.4.0",
+    "@react-google-maps/api": "^2.20.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "emailjs-com": "^3.2.0",
+    "progressbar.js": "^1.1.1",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.7",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.0.2",
@@ -46,7 +52,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.15"
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17"
   }
 }

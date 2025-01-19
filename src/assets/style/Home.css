@@ -1,0 +1,41 @@
+/* Home.css */
+
+/* Gradient animation for headings */
+@keyframes gradient-x {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animate-gradient-x {
+    animation: gradient-x 5s ease infinite;
+  }
+  
+  /* Style for the animated heading background */
+  .heading-gradient-bg {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .heading-gradient-bg span.bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, #34d399, #10b981, #059669, #047857);
+    background-size: 400% 400%;
+    animation: gradient-x 5s ease infinite;
+  }
+  
+  .heading-gradient-bg span.text {
+    position: relative;
+    color: transparent;
+    background: linear-gradient(90deg, #34d399, #10b981, #059669, #047857);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
