@@ -119,7 +119,7 @@ const Home = ({ isDarkMode }) => {
             download="Santosh_Kakde_CV.pdf"
             className="mt-6 inline-block px-6 py-2 bg-orange-500 text-white font-semibold rounded shadow hover:bg-orange-600 transition-colors duration-300"
           >
-            Download Resume
+          Download CV
           </a>
         </div>
       </div>
