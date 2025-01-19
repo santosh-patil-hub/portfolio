@@ -54,7 +54,7 @@ const Contact = ({ isDarkMode }) => {
 
   return (
     <div
-      className={`max-w-4xl mx-auto p-6 rounded-lg ${
+      className={`max-w-4xl mt-5 mx-auto p-6 rounded-lg ${
         isDarkMode ? "bg-gray-800 text-white" : "bg-white text-black"
       }`}
     >

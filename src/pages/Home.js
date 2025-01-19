@@ -75,10 +75,15 @@ const Home = ({ isDarkMode, toggleTheme }) => {
 
       {/* Other Sections */}
       <Profile />
+
       <Skill />
+
       <Project />
+
       <Contact />
+      
       <About />
+
 
       {/* Footer Section */}
       <Footer />
